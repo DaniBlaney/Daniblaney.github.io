@@ -1,4 +1,3 @@
-/*getting button to overlay on image*/
 .img-wrapper {
   position: relative;
  }
@@ -22,6 +21,14 @@
   display: block;
   /* adjust 'height' to position overlay content vertically */
   height: 50%;
+}
+
+.navbar-text {
+  align: center;
+}
+
+#logo {
+  margin: auto;
 }
 
 body {
@@ -52,3 +59,14 @@ body {
     transform: translate3d(4px, 0, 0);
   }
 }
+@media (min-width: 576px) {
+
+ }
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+ }
