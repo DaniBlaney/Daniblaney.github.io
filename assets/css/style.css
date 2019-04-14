@@ -22,6 +22,9 @@
   /* adjust 'height' to position overlay content vertically */
   height: 50%;
 }
+.navbar{
+  background-color: transparent;
+}
 
 .navbar-text {
   align: center;
@@ -46,6 +49,7 @@
 
 #logo {
   margin: auto;
+  padding: 0;
 }
 
 body {
