@@ -22,6 +22,28 @@
   /* adjust 'height' to position overlay content vertically */
   height: 50%;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.media:hover .overlay {
+  opacity: 1;
+}
+#myCode {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 .navbar-text {
   align: center;
@@ -47,8 +69,8 @@ body {
 }
 footer {
   font-size: 8px;
-  background: rgba(102, 102, 102, 0.39);
-  border-top: 3px solid #666;
+  /* background: rgba(102, 102, 102, 0.39); */
+  /* border-top: 3px solid #666; */
   color: rgb(59, 59, 59);
   text-align: center;
   margin-top: 25px;
