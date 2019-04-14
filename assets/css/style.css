@@ -4,7 +4,7 @@
 
 .img-responsive {
   width: 100%;
-  height: auto;
+  height: 450px;
 }
 
 .img-overlay {
@@ -67,9 +67,8 @@ footer {
   width: 100%;
 }
 p {
-  font-size: 16px;
+  font-size: 12px;
 }
-
 
 .face:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
