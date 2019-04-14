@@ -26,9 +26,16 @@
 .navbar-text {
   align: center;
 }
-
+.navbar-light .navbar-nav .nav-link {
+  font-size: smaller;
+}
 .jumbotron-fluid {
   margin-top: 20px;
+}
+
+.submit {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 #logo {
