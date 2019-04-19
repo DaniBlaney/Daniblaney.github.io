@@ -1,3 +1,4 @@
+
 .img-wrapper {
   position: relative;
  }
@@ -12,7 +13,7 @@
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  left: 0;
   text-align: center;
 }
 
@@ -46,10 +47,12 @@
 .row {
   margin: 10px;
 }
-
+* {
+  margin: 0; padding: 0;
+}
 #logo {
-  margin: auto;
-  padding: 0;
+  margin-left: 10px;
+  padding-bottom: 15px;
 }
 
 body {
@@ -67,7 +70,10 @@ footer {
   width: 100%;
 }
 p {
-  font-size: 12px;
+  font-size: smaller;
+}
+.copyright {
+  text-align: center;
 }
 
 .face:hover {
@@ -100,14 +106,103 @@ p {
     transform: translate3d(4px, 0, 0);
   }
 }
-@media (min-width: 576px) {
+.mario {
+  height: 60px;
+  width: 40px;
+  background: url("../images/mario-sprites.png") 0 0;
+  -webkit-animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  -moz-animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  -ms-animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  -o-animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  position: relative;
+  left: 100px;
+}
 
- }
+@-webkit-keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
 
-@media (min-width: 768px) {
+@-webkit-keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+@-moz-keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@-moz-keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+@-ms-keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@-ms-keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+@-o-keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@-o-keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+@keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
 
 }
 
-@media (min-width: 992px) {
+@media only screen and (max-height: 540px) {
 
- }
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+
+
+}

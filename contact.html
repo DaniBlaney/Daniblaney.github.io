@@ -15,22 +15,22 @@
 <body>
 
     <header id="masthead">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img  class="navbar-brand" href="index.html" id="logo" src="assets/images/skull.png" width="160px"></img>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <img  class="navbar-brand" href="index.html" id="logo" src="assets/images/darkskull.png" width="140px"></img>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarColor01">
-              <ul class="navbar-nav mr-auto">
+              <ul class="navbar-nav mr-auto nav-tabs">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" data-toggle="tab" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link" data-toggle="tab" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" data-toggle="tab" href="contact.html">Contact</a>
                 </li>
               </ul>
               <!-- <form class="form-inline my-2 my-lg-0">
@@ -58,7 +58,7 @@
 
           <div class="form-group2">
               <label for="exampleInputMessage">Message</label>
-              <input type="password" class="form-control" id="exampleInputMessage1" placeholder="Message">
+              <input type="message" class="form-control" id="exampleInputMessage1" placeholder="Message">
           </div>
             <button type="submit" class="btn btn-secondary submit">Submit</button>
         </form>
@@ -73,12 +73,18 @@
         <div class="container">
           <p>© 2019 - Site Built By Ms. Danielle Blaney</p>
 
+          <div class="mario"></div>
           <a href="https://www.linkedin.com/in/danielle-blaney-60340b26/" class="navbar-btn btn-secondary btn pull-right">
             <i class="fa fa-linkedin"></i>
             <span class="glyphicon glyphicon-thumbsup"></span>Connect with Me!</a>
         </div>
     </div>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="./static/javascript/bideo.js"></script>
+<script src="./static/javascript/scripts.js"></script>
+
 </body>
 
 </html>
