@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="Content/style.css" rel="stylesheet" />
+
+</head>
+
+<header id="masthead">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="../../index.html"><img id="logo" src="../images/whiteskull.png" width="145px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" data-toggle="tab" href="../../index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="../../portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="../../contact.html">Contact</a>
+              </li>
+          </ul>
+          <a href="https://github.com/DaniBlaney" class="github" target="_blank">
+              <i class="fab fa-github-square fa-2x"></i>
+          </a>
+          <a href="https://docs.google.com/document/d/14O3i07oQvV3hNNyVzvLe6_hbIG6z00mtKrLoakduqKU/edit?usp=sharing"  class="resume" target="_blank">
+              <i class="far fa-file-alt fa-2x"></i>
+          </a>
+          <a href="game.html" class="gamepad">
+              <i class="fas fa-gamepad fa-2x"></i>
+          </a>
+        </div>
+      </nav>
+
+</header>
+
+<body>
+<div id="game">
+<div id="world">
+</div>
+<div id="coinNumber" class="gauge">0</div>
+<div id="coin" class="gaugeSprite"></div>
+<div id="liveNumber" class="gauge">0</div>
+<div id="live" class="gaugeSprite"></div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="Scripts/jQuery.js"><\/script>')</script>
+<script src="Scripts/testlevels.js"></script>
+<script src="Scripts/oop.js"></script>
+<script src="Scripts/keys.js"></script>
+<script src="Scripts/constants.js"></script>
+<script src="Scripts/main.js"></script>
+</body>
+</html>
