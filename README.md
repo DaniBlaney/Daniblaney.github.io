@@ -29,4 +29,4 @@ Here I have created a personal web page to show off my work in Rutgers Coding Bo
 * *****
 ![Game](assets/images/game.png)
 
-![Game](assets/images/58818.gif)
+<!--![Game](assets/images/58818.gif)-->
