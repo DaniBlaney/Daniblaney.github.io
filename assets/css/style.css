@@ -11,7 +11,9 @@
   height: auto;
   margin: 20px;
 }
-
+.fa-linkedin:before{
+  margin: 3px;
+}
 .overlay {
   position: absolute;
   top: 0;
