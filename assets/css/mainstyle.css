@@ -267,9 +267,7 @@ footer {
             animation-timing-function: ease-out;
   }
 }
-
-
-.mariosprite {
+.mario {
   height: 60px;
   width: 40px;
   background: url("../images/mario-sprites.png") 0 0;
@@ -292,65 +290,149 @@ footer {
   left: 100px;
 }
 
-@-webkit-keyframes animate-mariosprite {
+@-webkit-keyframes animate-mario {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@-webkit-keyframes move-mariosprite {
+@-webkit-keyframes move-mario {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
 
-@-moz-keyframes animate-mariosprite {
+@-moz-keyframes animate-mario {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@-moz-keyframes move-mariosprite {
+@-moz-keyframes move-mario {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
 
-@-ms-keyframes animate-mariosprite {
+@-ms-keyframes animate-mario {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@-ms-keyframes move-mariosprite {
+@-ms-keyframes move-mario {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
 
-@-o-keyframes animate-mariosprite {
+@-o-keyframes animate-mario {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@-o-keyframes move-mariosprite {
+@-o-keyframes move-mario {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
 
-@keyframes animate-mariosprite {
+@keyframes animate-mario {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@keyframes move-mariosprite {
+@keyframes move-mario {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
+
+/*
+.mario {
+  height: 60px;
+  width: 40px;
+  background: url("../images/mario-sprites.png") 0 0;
+  -webkit-animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  -moz-animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  -ms-animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  -o-animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  animation:
+      animate-mario 3s 0s steps(27) infinite,
+      move-mario ease-in 3s 0s infinite;
+  position: relative;
+  left: 100px;
+}
+
+@-webkit-keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@-webkit-keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+@-moz-keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@-moz-keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+@-ms-keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@-ms-keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+@-o-keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@-o-keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+}
+
+@keyframes animate-mario {
+  from { background-position: 0 0 }
+  to   { background-position: -1080px 0 }
+}
+
+@keyframes move-mario {
+  0%   { left: 100px }
+  20%  { left: 100px }
+  50%  { left: 300px }
+  100% { left: 300px }
+} */
 
 
 
