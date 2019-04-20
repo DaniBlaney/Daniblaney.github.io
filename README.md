@@ -1,7 +1,7 @@
 # Daniblaney Portfolio 
 
 <p align="center">
-<img width="460" height="350" src="assets/images/darkskull.png">
+<img width="460" height="150" src="assets/images/darkskull.png">
 </p>
 
 [Click here to see my deployed web page!](https://daniblaney.github.io/)
@@ -21,7 +21,6 @@ Here I have created a personal web page to show off my work in Rutgers Coding Bo
 
 ### Game written by:
 
-* *****
 * FLORIAN RAPPL, 2012.
 * florian-rappl.de
 * mail@florian-rappl.de
