@@ -4,7 +4,9 @@
 <img width="460" height="100" src="assets/images/darkskull.png">
 </p>
 
+<p align="center">
 [Click here to see my deployed web page!](https://daniblaney.github.io/)
+</p>
 
 ## Description
 
