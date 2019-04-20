@@ -4,7 +4,7 @@ var config = {
   authDomain: "profilegithubio.firebaseapp.com",
   databaseURL: "https://profilegithubio.firebaseio.com",
   projectId: "profilegithubio",
-  storageBucket: "profilegithubio.appspot.com",
+  storageBucket: "https://profilegithubio.firebaseio.com/",
   messagingSenderId: "222453668265"
 };
 firebase.initializeApp(config);
