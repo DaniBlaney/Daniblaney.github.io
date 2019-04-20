@@ -3,34 +3,37 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Danielle Blaney</title>
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 
 <body>
 
   <header id="masthead">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a class="navbar-brand" href="index.html">Danielle Blaney</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html"><img id="logo" src="../Daniblaney.github.io/assets/images/whiteskull.png" width="145px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarColor01">
+          <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" data-toggle="tab" href="index.html">About <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
+                  <a class="nav-link" data-toggle="tab" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="contact.html">Contact</a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -38,46 +41,97 @@
             </form>
           </div>
         </nav>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light">
+          <img  class="navbar-brand" href="index.html" id="logo" src="assets/images/darkskull.png" width="140px"></img>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto nav-tabs">
+              <li class="nav-item active">
+                <a class="nav-link" data-toggle="tab" href="index.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-secondary disabled my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+          </div>
+        </nav>
   </header>
 
   <div id="main-container" class="container">
     <section class="main-section">
-        <div class="jumbotron bg-light jumbotron-fluid">
+        <div class= "jumbotron-fluid">
           <div class="container">
-                <h4 class="mt-0">About Me</h4>
+                <!-- <h4 class="mt-0">About Me</h4> -->
             <div class="row">
-              <div class="col-12">
+              <div class="col-3 picture">
                 <div class="media">
                   <div class="face">
                     <img src="assets/images/lol.jpg" class="auth-image" alt="Danielle Blaney" height=200px>
                   </div>
-                  <div class="card-body">
+                </div>
+              </div>
+                <div class="col-9">
+                  <div class="card border-dark mb-3" style="max-width: 50rem;">
+                      <div class="card-header">About Me</div>
+                      <div class="card-body">
+                        <h4 class="card-title">Dark card title</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+
+                        <p class="card-text">Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+
+                        <p class="card-text">Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="card-body">
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
                     <p class="card-text">Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
 
                     <p class="card-text">Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
     </section>
-
   </div>
 
-  <div class="navbar navbar-default navbar-fixed-bottom" style="background-color: #c0c0c0">
+  <div class="clearfix"></div>
+
+  <video id="background_video" loop muted></video>
+  <div id="video_cover"></div>
+  <div id="overlay"></div>
+
+<footer>
+  <div class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
-        <p class="navbar-text pull-left">© 2019 - Site Built By Ms. Danielle Blaney
+        <p class="copyright">© 2019 - Site Built By Ms. Danielle Blaney</p>
 
-        </p>
-
-        <a href="https://www.linkedin.com/in/danielle-blaney-60340b26/" class="navbar-btn btn-info btn pull-right">
+        <div class="mario"></div>
+        <a href="https://www.linkedin.com/in/danielle-blaney-60340b26/" class="navbar-btn btn-info btn-lg pull-right">
           <i class="fa fa-linkedin"></i>
           <span class="glyphicon glyphicon-thumbsup"></span>Connect with Me!</a>
       </div>
   </div>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="assets/javascript/script.js"></script>
 
 </body>
 
