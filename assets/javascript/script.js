@@ -1,13 +1,13 @@
 // Initialize Firebase
-var config = {
-  apiKey: "AIzaSyD73sT69E7qtwjrRRG1mVn1_FRBSDHxb5Y",
-  authDomain: "profilegithubio.firebaseapp.com",
-  databaseURL: "https://profilegithubio.firebaseio.com",
-  projectId: "profilegithubio",
-  storageBucket: "https://profilegithubio.firebaseio.com/",
-  messagingSenderId: "222453668265"
-};
-firebase.initializeApp(config);
+  var config = {
+    apiKey: "AIzaSyD73sT69E7qtwjrRRG1mVn1_FRBSDHxb5Y",
+    authDomain: "profilegithubio.firebaseapp.com",
+    databaseURL: "https://profilegithubio.firebaseio.com",
+    projectId: "profilegithubio",
+    storageBucket: "profilegithubio.appspot.com",
+    messagingSenderId: "222453668265"
+  };
+  firebase.initializeApp(config);
 
 // Reference messages collection
 var messagesRef = firebase.database().ref('messages');
