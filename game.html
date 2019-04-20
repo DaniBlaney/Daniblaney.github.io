@@ -14,14 +14,14 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="./main.css" />
-	<link rel="stylesheet" href="./background.css" />
-	<link rel="stylesheet" href="./character-select.css" />
-	<link rel="stylesheet" href="./road.css" />
-	<link rel="stylesheet" href="./trees.css" />
-	<link rel="stylesheet" href="./driver.css" />
-	<link rel="stylesheet" href="./mario.css" />
-	<link rel="stylesheet" href="./bowser.css" />
+  <link rel="stylesheet" href="assets/game/main.css">
+	<link rel="stylesheet" href="assets/game/background.css">
+	<link rel="stylesheet" href="assets/game/character-select.css">
+	<link rel="stylesheet" href="assets/game/road.css">
+	<link rel="stylesheet" href="assets/game/trees.css">
+	<link rel="stylesheet" href="assets/game/driver.css">
+	<link rel="stylesheet" href="assets/game/mario.css">
+	<link rel="stylesheet" href="assets/game/bowser.css">
 
 </head>
     <title>Mario Kart</title>
@@ -57,14 +57,11 @@
             </a>
           </div>
         </nav>
-          </div>
-        </nav>
   </header>
 
-  <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+<div class="container">
     <div class="character-select" tabindex="1">Switch Character</div>
-      <input type="radio" name="character-select" id="mario-character-select" value="mario" checked>
+      <input type="radio" name="character-select" id="mario-character-select" value="mario" checked/>
       <label for="mario-character-select"></label>
       <input type="radio" name="character-select" id="bowser-character-select" value="bowser">
       <label for="bowser-character-select"></label>
@@ -72,19 +69,19 @@
     <div class="output">
       <div class="road"></div>
       <div class="trees"></div>
-      <div class="driverMario"></div>
+      <div class="driver mario"></div>
       <div class="driver bowser"></div>
       <div class="keyboard"></div>
     </div>
-      </div>
-  </div>
+</div>
+
 
 
   <div class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
         <p class="copyright">© 2019 - Site Built By Ms. Danielle Blaney</p>
 
-        <div class="mario"></div>
+        <div class="mariosprite"></div>
         <a href="https://www.linkedin.com/in/danielle-blaney-60340b26/" class="navbar-btn btn-info btn-lg pull-right">
           <i class="fab fa-linkedin"></i>
           <span class="glyphicon glyphicon-thumbsup"></span>Connect with Me!</a>
@@ -92,7 +89,9 @@
   </div>
 </footer>
 
-<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<!-- <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script> -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="assets/javascript/script.js"></script>
+<!-- <script src="assets/javascript/script.js"></script> -->
+
 </body>
+</html>

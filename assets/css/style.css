@@ -269,7 +269,7 @@ footer {
 }
 
 
-.mario {
+.mariosprite {
   height: 60px;
   width: 40px;
   background: url("../images/mario-sprites.png") 0 0;
@@ -292,60 +292,60 @@ footer {
   left: 100px;
 }
 
-@-webkit-keyframes animate-mario {
+@-webkit-keyframes animate-mariosprite {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@-webkit-keyframes move-mario {
+@-webkit-keyframes move-mariosprite {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
 
-@-moz-keyframes animate-mario {
+@-moz-keyframes animate-mariosprite {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@-moz-keyframes move-mario {
+@-moz-keyframes move-mariosprite {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
 
-@-ms-keyframes animate-mario {
+@-ms-keyframes animate-mariosprite {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@-ms-keyframes move-mario {
+@-ms-keyframes move-mariosprite {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
 
-@-o-keyframes animate-mario {
+@-o-keyframes animate-mariosprite {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@-o-keyframes move-mario {
+@-o-keyframes move-mariosprite {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
   100% { left: 300px }
 }
 
-@keyframes animate-mario {
+@keyframes animate-mariosprite {
   from { background-position: 0 0 }
   to   { background-position: -1080px 0 }
 }
 
-@keyframes move-mario {
+@keyframes move-mariosprite {
   0%   { left: 100px }
   20%  { left: 100px }
   50%  { left: 300px }
