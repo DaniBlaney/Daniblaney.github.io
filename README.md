@@ -1,4 +1,4 @@
-# Daniblaney Portfolio 
+# Daniblaney Portfolio {style=text-align:center}
 
 <p align="center">
 <img width="460" height="150" src="assets/images/darkskull.png">
