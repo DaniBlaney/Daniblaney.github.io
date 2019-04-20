@@ -21,12 +21,10 @@
   opacity: 0;
   transition: .5s ease;
   margin: 20px;
-
 }
 
 .pipecontainer :hover .overlay {
   opacity: 1;
-
 }
 
 .pirahnaplant {
@@ -68,11 +66,6 @@
   margin: 10px;
 }
 
-#logo {
-  margin-left: 10px;
-  padding-bottom: 10px;
-}
-
 .jumbotron .bg-light .jumbotron-fluid {
   background-color: transparent;
 }
@@ -92,13 +85,16 @@
   backface-visibility: hidden;
   perspective: 1000px;
 }
+/* .picture {
+  background-color: #033e7863;
+  height: 395px;
+} */
 
-.clearfix {
-  display: block;
-  clear: both;
-  overflow: auto;
-  margin-bottom: 120px;
+#logo {
+  margin-left: 10px;
+  padding-bottom: 10px;
 }
+
 h3 {
   font-size: 60px !important;
   color: white !important;
@@ -124,7 +120,12 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
+.clearfix {
+  display: block;
+  clear: both;
+  overflow: auto;
+  margin-bottom: 120px;
+}
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
