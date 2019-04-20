@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-[Click here to see my deployed web page!](https://daniblaney.github.io/)
+<https://daniblaney.github.io/>
 </p>
 
 ## Description
