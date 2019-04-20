@@ -1,5 +1,44 @@
+.container {
+  position: relative;
+  width: 50%;
+}
 
-.img-wrapper {
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  margin: 20px;
+
+}
+
+.pipecontainer :hover .overlay {
+  opacity: 1;
+
+}
+
+.pirahnaplant {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* .img-wrapper {
   position: relative;
  }
 
@@ -21,8 +60,8 @@
   content: ' ';
   display: block;
   /* adjust 'height' to position overlay content vertically */
-  height: 50%;
-}
+  /* height: 50%;
+} */ */
 .navbar{
   background-color: transparent;
 }
@@ -52,16 +91,20 @@
 }
 #logo {
   margin-left: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
-
+.jumbotron .bg-light .jumbotron-fluid {
+  background-color: transparent;
+}
+.main-container{
+  background-color: transparent;
+}
 body {
-  background: url("../images/gaming-pattern.png");
+  background: url("../images/clouds.gif") fixed;
+  background-size: cover;
 }
 footer {
   font-size: 8px;
-  /* background: rgba(102, 102, 102, 0.39); */
-  /* border-top: 3px solid #666; */
   color: rgb(59, 59, 59);
   text-align: center;
   margin-top: 25px;
@@ -69,11 +112,10 @@ footer {
   bottom: 0;
   width: 100%;
 }
-p {
-  font-size: smaller;
-}
+
 .copyright {
-  text-align: center;
+  font-size: small;
+  margin-bottom: -25px;
 }
 
 .face:hover {
