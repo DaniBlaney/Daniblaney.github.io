@@ -387,10 +387,13 @@ footer {
     width: 100%
 
   }
+  .auth-image {
+    width: 100%
+  }
 }
 
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   #logo {
     width: 100%;
   }
@@ -398,7 +401,7 @@ footer {
   nav {
     width: 100%;
     text-align: center;
-    margin-right: 15px;
+
   }
 
   #masthead {
@@ -408,14 +411,19 @@ footer {
   #main-container {
     width: 100%;
   }
+  .image,
+  .overlay {
+    width: 33.33% !important;
+  }
 
-  .pipecontainer {
-    width: 100%;
-    margin: 0;
+  .row {
+    margin-left:-100px;
   }
 
   .auth-image {
-    width: 100%
+    width: 95%;
+    margin: 8px;
+    align-self: center;
   }
 
 }
