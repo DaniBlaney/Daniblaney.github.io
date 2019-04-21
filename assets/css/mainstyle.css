@@ -395,7 +395,7 @@ footer {
 
 @media only screen and (max-width: 640px) {
   #logo {
-    width: 100%;
+    width: 65%;
   }
 
   nav {
