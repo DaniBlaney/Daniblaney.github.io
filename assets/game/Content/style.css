@@ -41,6 +41,19 @@
 .matter {
 	margin: 0; padding: 0; z-index: 95; position: absolute; width: 32px; height: 32px;
 }
+@media screen and (max-width: 768px) {
+	#game {
+    height: 430px;
+    width: 640px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -321px;
+    margin-top: -178px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+}
 
 @media only screen and (max-width: 640px) {
 	#game {
