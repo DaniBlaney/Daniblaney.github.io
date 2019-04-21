@@ -95,10 +95,6 @@
   backface-visibility: hidden;
   perspective: 1000px;
 }
-/* .picture {
-  background-color: #033e7863;
-  height: 395px;
-} */
 
 #logo {
   margin-left: 10px;
@@ -350,94 +346,94 @@ footer {
   100% { left: 300px }
 }
 
-/*
-.mario {
-  height: 60px;
-  width: 40px;
-  background: url("../images/mario-sprites.png") 0 0;
-  -webkit-animation:
-      animate-mario 3s 0s steps(27) infinite,
-      move-mario ease-in 3s 0s infinite;
-  -moz-animation:
-      animate-mario 3s 0s steps(27) infinite,
-      move-mario ease-in 3s 0s infinite;
-  -ms-animation:
-      animate-mario 3s 0s steps(27) infinite,
-      move-mario ease-in 3s 0s infinite;
-  -o-animation:
-      animate-mario 3s 0s steps(27) infinite,
-      move-mario ease-in 3s 0s infinite;
-  animation:
-      animate-mario 3s 0s steps(27) infinite,
-      move-mario ease-in 3s 0s infinite;
-  position: relative;
-  left: 100px;
+@media screen and (max-width: 980px) {
+
+  #masthead {
+    width: 95%;
+    margin: 5px;
+  }
+
+  #main-container {
+    width: 95%
+  }
+
+  .pipecontainer {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .auth-image {
+    width: 65%
+  }
 }
 
-@-webkit-keyframes animate-mario {
-  from { background-position: 0 0 }
-  to   { background-position: -1080px 0 }
+@media screen and (max-width: 768px) {
+
+  #masthead {
+    width: 95%;
+    margin: 5px;
+  }
+
+  #main-container {
+    width: 95%
+  }
+
+  .pipecontainer {
+    width: 60%;
+    margin: 10px;
+  }
+
+  .main-section {
+    width: 100%
+
+  }
+  .auth-image {
+    width: 100%
+  }
 }
 
-@-webkit-keyframes move-mario {
-  0%   { left: 100px }
-  20%  { left: 100px }
-  50%  { left: 300px }
-  100% { left: 300px }
+
+@media only screen and (max-width: 640px) {
+  #logo {
+    width: 65%;
+  }
+
+  nav {
+    width: 100%;
+    text-align: center;
+
+  }
+
+  #masthead {
+    width: 100%;
+  }
+
+  #main-container {
+    width: 100%;
+  }
+  .image,
+  .overlay {
+    width: 33.33% !important;
+  }
+
+  .row {
+    margin-left:-100px;
+  }
+
+  .auth-image {
+    width: 95%;
+    margin: 8px;
+    align-self: center;
+  }
+
 }
 
-@-moz-keyframes animate-mario {
-  from { background-position: 0 0 }
-  to   { background-position: -1080px 0 }
+
+
+/* @media only screen and (max-width: 768px) {
+.navbar{
+  width: 100%;
 }
-
-@-moz-keyframes move-mario {
-  0%   { left: 100px }
-  20%  { left: 100px }
-  50%  { left: 300px }
-  100% { left: 300px }
-}
-
-@-ms-keyframes animate-mario {
-  from { background-position: 0 0 }
-  to   { background-position: -1080px 0 }
-}
-
-@-ms-keyframes move-mario {
-  0%   { left: 100px }
-  20%  { left: 100px }
-  50%  { left: 300px }
-  100% { left: 300px }
-}
-
-@-o-keyframes animate-mario {
-  from { background-position: 0 0 }
-  to   { background-position: -1080px 0 }
-}
-
-@-o-keyframes move-mario {
-  0%   { left: 100px }
-  20%  { left: 100px }
-  50%  { left: 300px }
-  100% { left: 300px }
-}
-
-@keyframes animate-mario {
-  from { background-position: 0 0 }
-  to   { background-position: -1080px 0 }
-}
-
-@keyframes move-mario {
-  0%   { left: 100px }
-  20%  { left: 100px }
-  50%  { left: 300px }
-  100% { left: 300px }
-} */
-
-
-
-@media only screen and (max-width: 768px) {
-
 
 }
 
@@ -450,4 +446,4 @@ footer {
 
 
 
-}
+} */
