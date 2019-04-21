@@ -8,10 +8,10 @@
 
 var keys = {
 	bind : function() {
-		$(document).on('keydown', function(event) {	
+		$(document).on('keydown', function(event) {
 			return keys.handler(event, true);
 		});
-		$(document).on('keyup', function(event) {	
+		$(document).on('keyup', function(event) {
 			return keys.handler(event, false);
 		});
 	},
@@ -40,7 +40,7 @@ var keys = {
 				keys.right = status;
 				break;
 			case 37://LEFT ARROW
-				keys.left = status;			
+				keys.left = status;
 				break;
 			case 38://UP ARROW
 				keys.up = status;
@@ -48,7 +48,7 @@ var keys = {
 			default:
 				return true;
 		}
-			
+
 		event.preventDefault();
 		return false;
 	},
@@ -58,3 +58,32 @@ var keys = {
 	right : false,
 	down : false,
 };
+
+/* make mobile touch screen controls--my code added to Florians's*/
+
+var myGameArea = {
+  canvas : document.createElement("canvas"),
+  start : function() {
+    this.canvas.width = 480;
+    this.canvas.height = 270;
+    this.context = this.canvas.getContext("2d");
+    document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+    this.interval = setInterval(updateGameArea, 20);
+    window.addEventListener('touchmove', function (e) {
+      myGameArea.x = e.touches[0].screenX;
+      myGameArea.y = e.touches[0].screenY;
+    })
+  },
+  clear : function(){
+    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+  }
+}
+
+function updateGameArea() {
+  myGameArea.clear();
+  if (myGameArea.x && myGameArea.y) {
+    myGamePiece.x = myGameArea.x;
+    myGamePiece.y = myGameArea.y;
+  }
+  myGamePiece.update();
+}
