@@ -102,14 +102,14 @@
 }
 
 #gameController {
-  height: 40px; width: 110px; position: absolute; left: 50%; top: 50%;
-	margin-left: -321px; margin-top: 280px; border: 1px solid;
+  height: 40px; width: 225px; position: absolute; left: 50%; top: 50%;
+	margin-left: -105px; margin-top: 280px; border: 1px solid;
 }
 
-.fa-circle,
-.fa-arrow-circle-left,
+
+
 .fa-arrow-circle-right{
-  width: 80%;
+ margin-right: 55px;
 }
 
 .row, .controller {
@@ -382,7 +382,7 @@ footer {
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -50px;
+    margin-left: -85px;
     margin-top: 280px;
     border: 1px solid;
   .pipecontainer {
@@ -421,11 +421,11 @@ footer {
   }
   #gameController {
     height: 40px;
-    width: 108px;
+    width: 225px;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -50px;
+    margin-left: -105px;
     margin-top: 256px;
     border: 1px solid;
   }
@@ -466,11 +466,11 @@ footer {
   }
   #gameController {
     height: 40px;
-    width: 115px;
+    width: 225px;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -50px;
+    margin-left: -90px;
     margin-top: 300px;
     border: 1px solid;
   }
