@@ -51,6 +51,7 @@
 </header>
 
 <body>
+  <div class="row">
   <div id="game">
   <div id="world">
   </div>
@@ -59,13 +60,21 @@
   <div id="liveNumber" class="gauge">0</div>
   <div id="live" class="gaugeSprite"></div>
   </div>
+  </div>
 
-<div id="gameController">
-  <i id="left" class="fas fa-arrow-circle-left"></i>
-  <i id="right" class="fas fa-arrow-circle-right"></i>
-
-  <i id="buttonB" class="far fa-circle"></i>
-  <i id="buttonA" class="fas fa-circle"></i>
+<div id="gameController" class="row controller">
+  <div class= "column">
+    <i id="left" class="fas fa-arrow-circle-left"></i>
+  </div>
+  <div class="column">
+    <i id="right" class="fas fa-arrow-circle-right"></i>
+  </div>
+  <div class="column">
+    <i id="buttonB" class="far fa-circle"></i>
+  </div>
+  <div class="column">
+    <i id="buttonA" class="fas fa-circle"></i>
+  </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
