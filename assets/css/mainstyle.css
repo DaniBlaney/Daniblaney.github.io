@@ -357,6 +357,10 @@ footer {
     width: 95%
   }
 
+  #gameController {
+    visibility: hidden
+  }
+
   .pipecontainer {
     width: 30%;
     margin: 10px;
@@ -427,23 +431,3 @@ footer {
   }
 
 }
-
-
-
-/* @media only screen and (max-width: 768px) {
-.navbar{
-  width: 100%;
-}
-
-}
-
-@media only screen and (max-height: 540px) {
-
-
-}
-
-@media only screen and (max-width: 1050px) {
-
-
-
-} */
