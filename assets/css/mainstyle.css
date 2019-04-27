@@ -102,14 +102,14 @@
 }
 
 #gameController {
-  height: 40px; width: 225px; position: absolute; left: 50%; top: 50%;
-	margin-left: -105px; margin-top: 280px; border: 1px solid;
+  height: 40px; width: 640px; position: absolute; left: 50%; top: 50%;
+	margin-left: -321px; margin-top: 290px; border: 1px solid;
 }
 
 
 
 .fa-arrow-circle-right{
- margin-right: 55px;
+ margin-right: 465px;
 }
 
 .row, .controller {
@@ -396,6 +396,7 @@ footer {
   }
 }
 
+
 @media screen and (max-width: 768px) {
 
   #masthead {
@@ -419,28 +420,29 @@ footer {
   .auth-image {
     width: 100%
   }
-  #gameController {
-    height: 40px;
-    width: 225px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -105px;
-    margin-top: 256px;
-    border: 1px solid;
-  }
-}
 
+  #gameController {
+      height: 40px;
+      width: 638px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -320px;
+      margin-top: 275px;
+      border: 1px solid;
+  }
+
+}
 
 @media only screen and (max-width: 640px) {
   #logo {
-    width: 65%;
+    width: 25%;
   }
 
   nav {
-    width: 100%;
+    width: 112%;
     text-align: center;
-
+    height: 120px;
   }
 
   #masthead {
@@ -464,25 +466,52 @@ footer {
     margin: 8px;
     align-self: center;
   }
+
+  .fa-arrow-circle-right {
+    margin-right: 385px;
+  }
+
   #gameController {
     height: 40px;
-    width: 225px;
+    width: 555px;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -90px;
-    margin-top: 300px;
+    margin-left: -218px;
+    margin-top: 282px;
     border: 1px solid;
   }
-  /* #game {
-    height: 400px;
-    width: 354px;
-    position: absolute;
-    top: 65%;
-    margin-left: -178px;
-    margin-top: -180px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-} */
+}
 
+@media only screen and (max-width: 480px) {
+.navbar {
+ height: 82px;
+ width: 477px;
+}
+.navbar-toggler {
+font-size: .25rem;
+}
+.fa-arrow-circle-right {
+  margin-right: 314px;
+}
+#game {
+  height: 385px;
+  width: 484px;
+  position: absolute;
+  top: 65%;
+  margin-left: -157px;
+  margin-top: -200px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+#gameController {
+  height: 40px;
+  width: 484px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -157px;
+  margin-top: 262px;
+  border: 1px solid;
+}
 }
