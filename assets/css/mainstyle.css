@@ -73,6 +73,10 @@
   margin-left: 20px;
 }
 
+.card-text {
+  float: left;
+}
+
 .row {
   margin: 10px;
 }
