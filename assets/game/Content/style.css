@@ -7,7 +7,7 @@
 
 #game {
 	height: 480px; width: 640px; position: absolute; left: 50%; top: 50%;
-	margin-left: -321px; margin-top: -200px; border: 1px solid #ccc; overflow: hidden;
+	margin-left: -321px; margin-top: -190px; border: 1px solid #ccc; overflow: hidden;
 }
 #world {
 	margin: 0; padding: 0; height: 100%; width: 100%; position: absolute;
@@ -49,21 +49,34 @@
     left: 50%;
     top: 50%;
     margin-left: -321px;
-    margin-top: -178px;
+    margin-top: -155px;
     border: 1px solid #ccc;
     overflow: hidden;
 }
 }
 
 @media only screen and (max-width: 640px) {
-	#game {
-    height: 400px;
-    width: 354px;
+  #game {
+    height: 385px;
+    width: 555px;
     position: absolute;
     top: 65%;
-    margin-left: -178px;
-    margin-top: -241px;
+    margin-left: -218px;
+    margin-top: -178px;
     border: 1px solid #ccc;
     overflow: hidden;
-  }
+}
+}
+
+@media only screen and (max-width: 480px) {
+#game {
+  height: 385px;
+  width: 484px;
+  position: absolute;
+  top: 65%;
+  margin-left: -157px;
+  margin-top: -200px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
 }
