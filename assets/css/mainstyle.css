@@ -390,11 +390,11 @@ footer {
     margin-left: -85px;
     margin-top: 280px;
     border: 1px solid;
-  .pipecontainer {
+}
+.pipecontainer {
     width: 30%;
     margin: 10px;
   }
-}
 
   .auth-image {
     width: 65%
