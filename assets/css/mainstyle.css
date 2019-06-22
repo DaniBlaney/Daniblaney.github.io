@@ -442,9 +442,10 @@ footer {
 @media only screen and (max-width: 640px) {
   #logo {
     width: 25%;
+    margin-left: 0px;
   }
 
-  nav {
+  .nav {
     width: 112%;
     text-align: center;
     height: 120px;
@@ -467,8 +468,9 @@ footer {
   }
 
   .auth-image {
-    width: 95%;
-    margin: 8px;
+    width: 70%;
+    height: inherit;
+    margin: 45px;
     align-self: center;
   }
 
