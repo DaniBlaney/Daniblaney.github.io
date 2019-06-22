@@ -379,8 +379,9 @@ footer {
   }
 
   #main-container {
-    width: 95%
+    width: 95%;
   }
+
   #gameController {
     height: 40px;
     width: 108px;
@@ -391,13 +392,15 @@ footer {
     margin-top: 280px;
     border: 1px solid;
 }
+
 .pipecontainer {
     width: 30%;
     margin: 10px;
   }
 
   .auth-image {
-    width: 65%
+    width: 240px;
+    height: inherit;
   }
 }
 
@@ -410,7 +413,7 @@ footer {
   }
 
   #main-container {
-    width: 95%
+    width: 95%;
   }
 
   .pipecontainer {
@@ -419,11 +422,11 @@ footer {
   }
 
   .main-section {
-    width: 100%
-
+    width: 100%;
   }
+
   .auth-image {
-    width: 100%
+    width: 200px;
   }
 
   #gameController {
@@ -458,6 +461,7 @@ footer {
   #main-container {
     width: 100%;
   }
+
   .image,
   .overlay {
     width: 33.33% !important;
@@ -495,28 +499,35 @@ footer {
  height: 50px;
  width: 477px;
 }
+
 .navbar-toggler {
 font-size: .25rem !important;
 position: absolute;
 }
+
 .fa-arrow-circle-right {
   margin-right: 314px;
 }
+
 .auth-image {
   width: 75%;
   height: inherit;
   margin: 30px;
   align-self: center;
 }
+
 .footer{
 align-content: right;
 }
+
 .mario{
   display: none;
 }
+
 .connect{
   display: none;
 }
+
 #game {
   height: 385px;
   width: 484px;
@@ -527,6 +538,7 @@ align-content: right;
   border: 1px solid #ccc;
   overflow: hidden;
 }
+
 #gameController {
   height: 40px;
   width: 484px;
