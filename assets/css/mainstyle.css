@@ -21,6 +21,27 @@
   color: white;
   margin: 5px;
 }
+.contact{
+  text-align: center;
+  box-shadow: black 4.5px;
+}
+#git,
+#mail,
+#res{
+color:#2fa4e7;
+}
+#git,
+#mail,
+#res,
+#linked{
+  align-items: inherit;
+}
+
+.carousel-inner{
+margin-top: 30px;
+padding: 15px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -110,8 +131,6 @@
   height: 40px; width: 640px; position: absolute; left: 50%; top: 50%;
 	margin-left: -321px; margin-top: 290px; border: 1px solid;
 }
-
-
 
 .fa-arrow-circle-right{
  margin-right: 465px;
@@ -379,8 +398,9 @@ footer {
   }
 
   #main-container {
-    width: 95%
+    width: 95%;
   }
+
   #gameController {
     height: 40px;
     width: 108px;
@@ -390,14 +410,16 @@ footer {
     margin-left: -85px;
     margin-top: 280px;
     border: 1px solid;
-  .pipecontainer {
+}
+
+.pipecontainer {
     width: 30%;
     margin: 10px;
   }
-}
 
   .auth-image {
-    width: 65%
+    width: 240px;
+    height: inherit;
   }
 }
 
@@ -410,7 +432,7 @@ footer {
   }
 
   #main-container {
-    width: 95%
+    width: 95%;
   }
 
   .pipecontainer {
@@ -419,11 +441,11 @@ footer {
   }
 
   .main-section {
-    width: 100%
-
+    width: 100%;
   }
+
   .auth-image {
-    width: 100%
+    width: 200px;
   }
 
   #gameController {
@@ -442,9 +464,10 @@ footer {
 @media only screen and (max-width: 640px) {
   #logo {
     width: 25%;
+    margin-left: 0px;
   }
 
-  nav {
+  .nav {
     width: 112%;
     text-align: center;
     height: 120px;
@@ -457,6 +480,7 @@ footer {
   #main-container {
     width: 100%;
   }
+
   .image,
   .overlay {
     width: 33.33% !important;
@@ -467,8 +491,9 @@ footer {
   }
 
   .auth-image {
-    width: 95%;
-    margin: 8px;
+    width: 70%;
+    height: inherit;
+    margin: 45px;
     align-self: center;
   }
 
@@ -490,15 +515,38 @@ footer {
 
 @media only screen and (max-width: 480px) {
 .navbar {
- height: 82px;
+ height: 50px;
  width: 477px;
 }
+
 .navbar-toggler {
-font-size: .25rem;
+font-size: .25rem !important;
+position: absolute;
 }
+
 .fa-arrow-circle-right {
   margin-right: 314px;
 }
+
+.auth-image {
+  width: 75%;
+  height: inherit;
+  margin: 30px;
+  align-self: center;
+}
+
+.footer{
+align-content: right;
+}
+
+.mario{
+  display: none;
+}
+
+.connect{
+  display: none;
+}
+
 #game {
   height: 385px;
   width: 484px;
@@ -509,6 +557,7 @@ font-size: .25rem;
   border: 1px solid #ccc;
   overflow: hidden;
 }
+
 #gameController {
   height: 40px;
   width: 484px;
