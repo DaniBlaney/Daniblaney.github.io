@@ -5,6 +5,12 @@
 .auth-image {
   box-shadow: 4.5px 4.5px;
 }
+.langLogos{
+  background-color: lightgrey;
+  margin: 20px;
+  padding: 10px;
+
+}
 .image {
   display: block;
   width: 100%;
@@ -24,17 +30,6 @@
 .contact{
   text-align: center;
   box-shadow: black 4.5px;
-}
-#git,
-#mail,
-#res{
-color:#2fa4e7;
-}
-#git,
-#mail,
-#res,
-#linked{
-  align-items: inherit;
 }
 
 .carousel-inner{
@@ -526,6 +521,7 @@ footer {
 .navbar-toggler {
 font-size: .25rem !important;
 position: absolute;
+float: right;
 }
 
 .fa-arrow-circle-right {
