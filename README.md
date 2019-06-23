@@ -1,5 +1,4 @@
-# Portfolio 🦄
-
+# Portfolio 🍄
 <p align="center">
 (https://daniblaney.github.io/)
 </p>
@@ -26,3 +25,4 @@ Here I have created a personal web page to show off my work in Rutgers Coding Bo
 ![Game](assets/images/game.png)
 
 * Currently working on making this game mobile responsive by adding a game controller for touch screen phones/tablets.
+* In the future I plan on replacing this game with one I will have learned to create myself!
