@@ -41,6 +41,10 @@ color:#2fa4e7;
 margin-top: 30px;
 padding: 15px;
 }
+.carouselContainer{
+  width:750px !important;
+  height: inherit;
+}
 
 .overlay {
   position: absolute;
