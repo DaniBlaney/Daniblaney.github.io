@@ -547,6 +547,12 @@ align-content: right;
   display: none;
 }
 
+.overlay,
+.pirahnaplant {
+  visibility: visible;
+  opacity: 1;
+}
+
 #game {
   height: 385px;
   width: 484px;
