@@ -1,8 +1,4 @@
-# Portfolio
-
-<p align="center">
-<img width="460" height="100" src="assets/images/darkskull.png">
-</p>
+# Portfolio 🦄
 
 <p align="center">
 (https://daniblaney.github.io/)
@@ -29,4 +25,4 @@ Here I have created a personal web page to show off my work in Rutgers Coding Bo
 * *****
 ![Game](assets/images/game.png)
 
-* Currently working on making this game mobile adaptive by adding a game controller for touch screens.
+* Currently working on making this game mobile responsive by adding a game controller for touch screen phones/tablets.
