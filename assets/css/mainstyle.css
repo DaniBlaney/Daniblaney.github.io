@@ -7,7 +7,9 @@
 }
 .langLogos{
   background-color: lightgrey;
-  
+  margin: 20px;
+  padding: 10px;
+
 }
 .image {
   display: block;
