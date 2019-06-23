@@ -5,7 +5,7 @@
 
 ## Description
 
-Here I have created a personal web page to show off my work in Rutgers Coding Bootcamp thus far. There is a About, Portfolio, and Contact page linked to Firebase. At the top right I have also linked my github page and my resume. The final icon in the top right is a game controller icon which directs to a mini Super Mario game.
+Here I have created a personal web page to show off my work in Rutgers Coding Bootcamp thus far. There is a About, Portfolio, and Contact page. At the top right I have also linked my github page, my resume and an email icon to contact me. The final icon in the top right is a game controller icon which directs to a mini Super Mario game.
 
 ![About](assets/images/updateabout.png)
 
