@@ -5,6 +5,10 @@
 .auth-image {
   box-shadow: 4.5px 4.5px;
 }
+.langLogos{
+  background-color: lightgrey;
+  
+}
 .image {
   display: block;
   width: 100%;
