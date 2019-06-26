@@ -471,7 +471,7 @@ footer {
     text-align: center;
     height: 120px;
     z-index: 9999;
-    position: relative;
+    position: absolute;
   }
 
   #masthead {
@@ -519,7 +519,7 @@ footer {
  height: 50px;
  width: 477px;
  z-index: 9999;
- position: relative;
+ position: absolute;
 }
 
 .navbar-toggler {
