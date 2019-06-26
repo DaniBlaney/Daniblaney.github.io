@@ -459,7 +459,7 @@ footer {
 @media only screen and (max-width: 640px) {
   #logo {
     width: 25%;
-    margin-left: 0px;
+    float: right;
   }
 
   .nav {
@@ -510,11 +510,16 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-.navbar {
+#logo {
+  width: 25%;
+  float: right;
+}
+
+  .navbar {
  height: 50px;
  width: 477px;
  z-index: 9999;
- 
+
 }
 
 .navbar-toggler {
@@ -523,9 +528,6 @@ position: absolute;
 z-index: 9999;
 float: right;
 }
-/* .nav-link{
-  background-color: #868e9673;
-} */
 
 .fa-arrow-circle-right {
   margin-right: 314px;
@@ -554,6 +556,11 @@ align-content: right;
 .pirahnaplant {
   visibility: visible;
   opacity: 1;
+}
+
+.carouselContainer{
+  width:450px !important;
+  height: inherit;
 }
 
 #game {
