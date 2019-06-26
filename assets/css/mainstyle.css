@@ -528,6 +528,9 @@ position: absolute;
 z-index: 9999;
 float: right;
 }
+.nav-link{
+  background-color: #868e9673;
+}
 
 .fa-arrow-circle-right {
   margin-right: 314px;
