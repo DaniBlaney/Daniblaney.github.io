@@ -470,6 +470,7 @@ footer {
     width: 112%;
     text-align: center;
     height: 120px;
+    z-index: 10;
   }
 
   #masthead {
