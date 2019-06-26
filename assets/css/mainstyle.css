@@ -525,6 +525,7 @@ footer {
 .navbar-toggler {
 font-size: .25rem !important;
 position: absolute;
+z-index: 9999;
 float: right;
 }
 
