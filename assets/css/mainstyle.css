@@ -569,8 +569,8 @@ align-content: right;
   width: 484px;
   position: absolute;
   top: 65%;
-  margin-left: -157px;
-  margin-top: -200px;
+  margin-left: -230px;
+  margin-top: -260px;
   border: 1px solid #ccc;
   overflow: hidden;
 }
@@ -581,8 +581,8 @@ align-content: right;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -157px;
-  margin-top: 262px;
+  margin-left: -240px;
+  margin-top: 215px;
   border: 1px solid;
 }
 }
