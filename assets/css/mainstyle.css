@@ -68,10 +68,6 @@ padding: 15px;
   text-align: center;
 }
 
-.navbar{
-  background-color: transparent;
-}
-
 .navbar-text {
   align: center;
 }
@@ -471,7 +467,6 @@ footer {
     text-align: center;
     height: 120px;
     z-index: 9999;
-    position: absolute;
   }
 
   #masthead {
@@ -519,7 +514,7 @@ footer {
  height: 50px;
  width: 477px;
  z-index: 9999;
- position: absolute;
+ 
 }
 
 .navbar-toggler {
@@ -528,9 +523,9 @@ position: absolute;
 z-index: 9999;
 float: right;
 }
-.nav-link{
+/* .nav-link{
   background-color: #868e9673;
-}
+} */
 
 .fa-arrow-circle-right {
   margin-right: 314px;
