@@ -516,6 +516,7 @@ footer {
 .navbar {
  height: 50px;
  width: 477px;
+ z-index: 10;
 }
 
 .navbar-toggler {
