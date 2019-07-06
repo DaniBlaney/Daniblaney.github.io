@@ -585,10 +585,10 @@ align-content: right;
 }
 #game {
   height: 385px;
-  width: 424px;
+  width: 490px;
   position: absolute;
   top: 60%;
-  margin-left: -245px;
+  margin-left: -238px;
   margin-top: -250px;
   border: 1px solid #ccc;
   overflow: hidden;
@@ -599,8 +599,31 @@ align-content: right;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -240px;
-  margin-top: 215px;
+  margin-left: -235px;
+  margin-top: 190px;
   border: 1px solid;
 }
+}
+
+@media only screen and (max-width:360px){
+  #game {
+    height: 385px;
+    width: 490px;
+    position: absolute;
+    top: 60%;
+    margin-left: -187px;
+    margin-top: -250px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  #gameController {
+    height: 40px;
+    width: 484px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: 190px;
+    border: 1px solid;
+  }
 }
