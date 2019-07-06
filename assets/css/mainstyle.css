@@ -568,9 +568,9 @@ align-content: right;
   height: 385px;
   width: 484px;
   position: absolute;
-  top: 65%;
-  margin-left: -230px;
-  margin-top: -260px;
+  top: 60%;
+  margin-left: -245px;
+  margin-top: -250px;
   border: 1px solid #ccc;
   overflow: hidden;
 }

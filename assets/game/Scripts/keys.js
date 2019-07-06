@@ -14,6 +14,18 @@ var keys = {
 		$(document).on('keyup', function(event) {
 			return keys.handler(event, false);
 		});
+		$(document).on("mousedown", "#right", function(event){
+			var press = jQuery.Event("keydown");
+			press.ctrlKey = false;
+			press.which = 39;
+			return keys.handler(press, true);
+		})
+		$(document).on("mouseup", "#right", function(event){
+			var press = jQuery.Event("keyup");
+			press.ctrlKey = false;
+			press.which = 39;
+			return keys.handler(press, false);
+		})
 	},
 	reset : function() {
 		keys.left = false;
@@ -27,6 +39,7 @@ var keys = {
 		$(document).off('keyup');
 	},
 	handler : function(event, status) {
+		console.log(event, "status", status)
 		switch(event.keyCode) {
 			case 57392://CTRL on MAC
 			case 17://CTRL
@@ -37,6 +50,7 @@ var keys = {
 				keys.down = status;
 				break;
 			case 39://RIGHT ARROW
+				console.log('right')
 				keys.right = status;
 				break;
 			case 37://LEFT ARROW
@@ -49,7 +63,7 @@ var keys = {
 				return true;
 		}
 
-		event.preventDefault();
+		// event.preventDefault();
 		return false;
 	},
 	accelerate : false,
@@ -121,3 +135,39 @@ var keys = {
 // right : false,
 // down : false,
 // };
+
+// function Update()
+// {
+//     for (var i = 0; i < Input.touchCount; i++)
+//     {
+//         var touch : Touch = Input.GetTouch(i);
+
+//         if (touch.phase == TouchPhase.Began)
+//         {
+//             if (touch.position.x > (Screen.width/2))
+//             {
+//                 MoveRight(); //moves player right
+//             }
+
+//             if (touch.position.x < (Screen.width/2))
+//             {
+//                 MoveLeft(); //moves player left
+//             }
+//         }
+//     }
+// }
+
+$(document).on("click", "#left", function(e){
+	e.preventDefault()
+	alert("test")
+})
+
+$(document).on("click", "#buttonB", function(e){
+	e.preventDefault()
+	alert("test")
+})
+
+$(document).on("click", "#buttonA", function(e){
+	e.preventDefault()
+	alert("test")
+})
