@@ -627,6 +627,6 @@ align-content: right;
     border: 1px solid;
   }
   .fa-arrow-circle-right {
-    margin-right: 314px;
+    margin-right: 190px !important;
   }
 }
