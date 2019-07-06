@@ -398,12 +398,12 @@ footer {
 
   #gameController {
     height: 40px;
-    width: 108px;
+    width: 640px;
     position: absolute;
-    left: 50%;
+    left: 25%;
     top: 50%;
-    margin-left: -85px;
-    margin-top: 280px;
+    margin-left: -76px;
+    margin-top: 290px;
     border: 1px solid;
 }
 
