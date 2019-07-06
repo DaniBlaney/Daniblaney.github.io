@@ -609,22 +609,22 @@ align-content: right;
   #game {
     height: 385px !important;
     width: 360px !important;
-    position: absolute;
+    position: absolute !important;
     top: 60% !important;
     margin-left: -187px !important;
     margin-top: -250px !important;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc !important;
     overflow: hidden !important;
   }
   #gameController {
     height: 40px !important;
     width: 360px !important;
-    position: absolute;
+    position: absolute !important;
     left: 50% !important;
     top: 50% !important;
     margin-left: -180px !important;
     margin-top: 190px !important;
-    border: 1px solid;
+    border: 1px solid !important;
   }
   .fa-arrow-circle-right {
     margin-right: 190px !important;
