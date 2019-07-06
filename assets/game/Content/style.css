@@ -41,7 +41,7 @@
 .matter {
 	margin: 0; padding: 0; z-index: 95; position: absolute; width: 32px; height: 32px;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 	#game {
     height: 430px;
     width: 640px;
@@ -53,9 +53,9 @@
     border: 1px solid #ccc;
     overflow: hidden;
 }
-}
+} */
 
-@media only screen and (max-width: 640px) {
+/* @media only screen and (max-width: 640px) {
   #game {
     height: 385px;
     width: 460px;
@@ -66,12 +66,12 @@
     border: 1px solid #ccc;
     overflow: hidden;
 }
-}
+} */
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
 #game {
   height: 385px;
-  width: 484px;
+  width: 424px;
   position: absolute;
   top: 60%;
   margin-left: -245px;
@@ -79,4 +79,4 @@
   border: 1px solid #ccc;
   overflow: hidden;
 }
-}
+} */
