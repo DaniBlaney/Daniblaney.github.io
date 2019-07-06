@@ -442,6 +442,17 @@ footer {
   .auth-image {
     width: 200px;
   }
+  #game {
+    height: 430px;
+    width: 640px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -321px;
+    margin-top: -155px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
 
   #gameController {
       height: 40px;
@@ -496,7 +507,16 @@ footer {
   .fa-arrow-circle-right {
     margin-right: 292px;
   }
-
+  #game {
+    height: 385px;
+    width: 460px;
+    position: absolute;
+    top: 65%;
+    margin-left: -311px;
+    margin-top: -267px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
   #gameController {
     height: 40px;
     width: 462px;
@@ -563,7 +583,16 @@ align-content: right;
   width:400px !important;
   height: inherit;
 }
-
+#game {
+  height: 385px;
+  width: 424px;
+  position: absolute;
+  top: 60%;
+  margin-left: -245px;
+  margin-top: -250px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
 #gameController {
   height: 40px;
   width: 484px;
