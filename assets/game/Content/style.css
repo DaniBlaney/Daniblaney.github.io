@@ -58,11 +58,11 @@
 @media only screen and (max-width: 640px) {
   #game {
     height: 385px;
-    width: 555px;
+    width: 460px;
     position: absolute;
     top: 65%;
-    margin-left: -265px;
-    margin-top: -178px;
+    margin-left: -311px;
+    margin-top: -267px;
     border: 1px solid #ccc;
     overflow: hidden;
 }

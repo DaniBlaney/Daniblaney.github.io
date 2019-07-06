@@ -494,17 +494,17 @@ footer {
   }
 
   .fa-arrow-circle-right {
-    margin-right: 385px;
+    margin-right: 292px;
   }
 
   #gameController {
     height: 40px;
-    width: 555px;
+    width: 462px;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -265px;
-    margin-top: 285px;
+    margin-left: -311px;
+    margin-top: 210px;
     border: 1px solid;
   }
 }
@@ -562,17 +562,6 @@ align-content: right;
 .carouselContainer{
   width:400px !important;
   height: inherit;
-}
-
-#game {
-  height: 385px;
-  width: 484px;
-  position: absolute;
-  top: 60%;
-  margin-left: -245px;
-  margin-top: -250px;
-  border: 1px solid #ccc;
-  overflow: hidden;
 }
 
 #gameController {
