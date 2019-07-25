@@ -14,17 +14,29 @@ var keys = {
 		$(document).on('keyup', function(event) {
 			return keys.handler(event, false);
 		});
-		$(document).on("mousedown", "#right", function(event){
-			var press = jQuery.Event("keydown");
-			press.ctrlKey = false;
-			press.which = 39;
-			return keys.handler(press, true);
+		$(document).on("mousedown", "#right", function(){
+			keys.right = true;
 		})
-		$(document).on("mouseup", "#right", function(event){
-			var press = jQuery.Event("keyup");
-			press.ctrlKey = false;
-			press.which = 39;
-			return keys.handler(press, false);
+		$(document).on("mouseup", "#right", function(){
+			keys.right = false;
+		})
+		$(document).on("mousedown", "#left", function(){
+			keys.left = true;
+		})
+		$(document).on("mouseup", "#left", function(){
+			keys.left = false;
+		})
+		$(document).on("mousedown", "#buttonA", function(){
+			keys.up = true;
+		})
+		$(document).on("mouseup", "#buttonA", function(){
+			keys.up = false;
+		})
+		$(document).on("mousedown", "#buttonB", function(){
+			keys.accelerate = true;
+		})
+		$(document).on("mouseup", "#buttonB", function(){
+			keys.accelerate = false;
 		})
 	},
 	reset : function() {
@@ -156,18 +168,3 @@ var keys = {
 //         }
 //     }
 // }
-
-$(document).on("click", "#left", function(e){
-	e.preventDefault()
-	alert("test")
-})
-
-$(document).on("click", "#buttonB", function(e){
-	e.preventDefault()
-	alert("test")
-})
-
-$(document).on("click", "#buttonA", function(e){
-	e.preventDefault()
-	alert("test")
-})
