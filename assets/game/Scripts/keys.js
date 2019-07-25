@@ -6,6 +6,47 @@
  * *****
  */
 
+var buttonA = new Hammer(document.getElementById('buttonA'););
+buttonA.on("press pressup", function (ev) {
+	if (ev.type == "press") {
+		keys.up = true;
+	}
+	if (ev.type == "pressup") {
+		keys.up = false;
+	}
+});
+
+var right = new Hammer(document.getElementById('right'););
+right.on("press pressup", function (ev) {
+	if (ev.type == "press") {
+		keys.right = true;
+	}
+	if (ev.type == "pressup") {
+		keys.right = false;
+	}
+});
+
+var left = new Hammer(document.getElementById('left'););
+left.on("press pressup", function (ev) {
+	if (ev.type == "press") {
+		keys.left = true;
+	}
+	if (ev.type == "pressup") {
+		keys.left = false;
+	}
+});
+
+var buttonB = new Hammer(document.getElementById('buttonB'););
+buttonB.on("press pressup", function (ev) {
+	if (ev.type == "press") {
+		keys.accelerate = true;
+	}
+	if (ev.type == "pressup") {
+		keys.accelerate = false;
+	}
+});
+
+
 var keys = {
 	bind : function() {
 		$(document).on('keydown', function(event) {
@@ -14,30 +55,30 @@ var keys = {
 		$(document).on('keyup', function(event) {
 			return keys.handler(event, false);
 		});
-		$(document).on("mousedown touchstart", "#right", function(){
-			keys.right = true;
-		})
-		$(document).on("mouseup touchend touchcancel touchmove", "#right", function(){
-			keys.right = false;
-		})
-		$(document).on("mousedown touchstart", "#left", function(){
-			keys.left = true;
-		})
-		$(document).on("mouseup touchend touchcancel touchmove", "#left", function(){
-			keys.left = false;
-		})
-		$(document).on("mousedown touchstart", "#buttonA", function(){
-			keys.up = true;
-		})
-		$(document).on("mouseup touchend touchcancel touchmove", "#buttonA", function(){
-			keys.up = false;
-		})
-		$(document).on("mousedown touchstart", "#buttonB", function(){
-			keys.accelerate = true;
-		})
-		$(document).on("mouseup touchend touchcancel touchmove", "#buttonB", function(){
-			keys.accelerate = false;
-		})
+		// $(document).on("mousedown touchstart", "#right", function(){
+		// 	keys.right = true;
+		// })
+		// $(document).on("mouseup touchend touchcancel touchmove", "#right", function(){
+		// 	keys.right = false;
+		// })
+		// $(document).on("mousedown touchstart", "#left", function(){
+		// 	keys.left = true;
+		// })
+		// $(document).on("mouseup touchend touchcancel touchmove", "#left", function(){
+		// 	keys.left = false;
+		// })
+		// $(document).on("mousedown touchstart", "#buttonA", function(){
+		// 	keys.up = true;
+		// })
+		// $(document).on("mouseup touchend touchcancel touchmove", "#buttonA", function(){
+		// 	keys.up = false;
+		// })
+		// $(document).on("mousedown touchstart", "#buttonB", function(){
+		// 	keys.accelerate = true;
+		// })
+		// $(document).on("mouseup touchend touchcancel touchmove", "#buttonB", function(){
+		// 	keys.accelerate = false;
+		// })
 	},
 	reset : function() {
 		keys.left = false;
