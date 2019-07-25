@@ -17,25 +17,25 @@ var keys = {
 		$(document).on("mousedown touchstart", "#right", function(){
 			keys.right = true;
 		})
-		$(document).on("mouseup touchcancel", "#right", function(){
+		$(document).on("mouseup touchend touchcancel touchmove", "#right", function(){
 			keys.right = false;
 		})
 		$(document).on("mousedown touchstart", "#left", function(){
 			keys.left = true;
 		})
-		$(document).on("mouseup touchcancel", "#left", function(){
+		$(document).on("mouseup touchend touchcancel touchmove", "#left", function(){
 			keys.left = false;
 		})
 		$(document).on("mousedown touchstart", "#buttonA", function(){
 			keys.up = true;
 		})
-		$(document).on("mouseup touchcancel", "#buttonA", function(){
+		$(document).on("mouseup touchend touchcancel touchmove", "#buttonA", function(){
 			keys.up = false;
 		})
 		$(document).on("mousedown touchstart", "#buttonB", function(){
 			keys.accelerate = true;
 		})
-		$(document).on("mouseup touchcancel", "#buttonB", function(){
+		$(document).on("mouseup touchend touchcancel touchmove", "#buttonB", function(){
 			keys.accelerate = false;
 		})
 	},
