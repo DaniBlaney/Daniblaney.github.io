@@ -38,6 +38,45 @@ var keys = {
 		// $(document).on("mouseup touchend touchcancel touchmove", "#buttonB", function(){
 		// 	keys.accelerate = false;
 		// })
+		var buttonA = new Hammer(document.getElementById('buttonA'));
+		buttonA.on("press pressup", function (ev) {
+			if (ev.type == "press") {
+				keys.up = true;
+			}
+			if (ev.type == "pressup") {
+				keys.up = false;
+			}
+		});
+
+		var right = new Hammer(document.getElementById('right'));
+		right.on("press pressup", function (ev) {
+			if (ev.type == "press") {
+				keys.right = true;
+			}
+			if (ev.type == "pressup") {
+				keys.right = false;
+			}
+		});
+
+		var left = new Hammer(document.getElementById('left'));
+		left.on("press pressup", function (ev) {
+			if (ev.type == "press") {
+				keys.left = true;
+			}
+			if (ev.type == "pressup") {
+				keys.left = false;
+			}
+		});
+
+		var buttonB = new Hammer(document.getElementById('buttonB'));
+		buttonB.on("press pressup", function (ev) {
+			if (ev.type == "press") {
+				keys.accelerate = true;
+			}
+			if (ev.type == "pressup") {
+				keys.accelerate = false;
+			}
+		});
 	},
 	reset : function() {
 		keys.left = false;
@@ -168,43 +207,3 @@ var keys = {
 //         }
 //     }
 // }
-
-var buttonA = new Hammer(document.getElementById('buttonA'););
-buttonA.on("press pressup", function (ev) {
-	if (ev.type == "press") {
-		keys.up = true;
-	}
-	if (ev.type == "pressup") {
-		keys.up = false;
-	}
-});
-
-var right = new Hammer(document.getElementById('right'););
-right.on("press pressup", function (ev) {
-	if (ev.type == "press") {
-		keys.right = true;
-	}
-	if (ev.type == "pressup") {
-		keys.right = false;
-	}
-});
-
-var left = new Hammer(document.getElementById('left'););
-left.on("press pressup", function (ev) {
-	if (ev.type == "press") {
-		keys.left = true;
-	}
-	if (ev.type == "pressup") {
-		keys.left = false;
-	}
-});
-
-var buttonB = new Hammer(document.getElementById('buttonB'););
-buttonB.on("press pressup", function (ev) {
-	if (ev.type == "press") {
-		keys.accelerate = true;
-	}
-	if (ev.type == "pressup") {
-		keys.accelerate = false;
-	}
-});
