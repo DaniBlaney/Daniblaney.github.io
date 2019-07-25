@@ -14,28 +14,28 @@ var keys = {
 		$(document).on('keyup', function(event) {
 			return keys.handler(event, false);
 		});
-		$(document).on("mouseenter", "#right", function(){
+		$(document).on("touchstart", "#right", function(){
 			keys.right = true;
 		})
-		$(document).on("mouseleave", "#right", function(){
+		$(document).on("touchend", "#right", function(){
 			keys.right = false;
 		})
-		$(document).on("mouseenter", "#left", function(){
+		$(document).on("touchstart", "#left", function(){
 			keys.left = true;
 		})
-		$(document).on("mouseleave", "#left", function(){
+		$(document).on("touchend", "#left", function(){
 			keys.left = false;
 		})
-		$(document).on("mouseenter", "#buttonA", function(){
+		$(document).on("touchstart", "#buttonA", function(){
 			keys.up = true;
 		})
-		$(document).on("mouseleave", "#buttonA", function(){
+		$(document).on("touchend", "#buttonA", function(){
 			keys.up = false;
 		})
-		$(document).on("mouseenter", "#buttonB", function(){
+		$(document).on("touchstart", "#buttonB", function(){
 			keys.accelerate = true;
 		})
-		$(document).on("mouseleave", "#buttonB", function(){
+		$(document).on("touchend", "#buttonB", function(){
 			keys.accelerate = false;
 		})
 	},

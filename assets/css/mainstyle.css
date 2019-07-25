@@ -630,3 +630,10 @@ align-content: right;
     margin-right: 190px !important;
   }
 }
+
+*{ touch-action: none; }
+
+/*
+#left, #right, #buttonA, #buttonB {
+  touch-action: none;
+} */
