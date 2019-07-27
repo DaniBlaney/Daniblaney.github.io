@@ -522,12 +522,12 @@ footer {
     border: 1px solid #ccc;
     overflow: hidden;
   }
-  #gameController #left #right #buttonA #buttonB {
+  /* #gameController #left #right #buttonA #buttonB {
     visibility: hidden;
   }
   .hideDiv {
     visibility: hidden;
-  }
+  } */
 }
 
 @media only screen and (max-width: 480px) {
@@ -586,16 +586,17 @@ footer {
   }
   #game {
     height: 385px;
-    width: 490px;
+    width: 424px;
     position: absolute;
     top: 60%;
-    margin-left: -238px;
+    margin-left: -230px;
     margin-top: -250px;
     border: 1px solid #ccc;
     overflow: hidden;
-  }
+}
+
   #gameController {
-    visibility: hidden;
+    visibility: visible !important;
     height: 40px;
     width: 484px;
     position: absolute;
@@ -605,18 +606,22 @@ footer {
     margin-top: 190px;
     border: 1px solid;
   }
+  #left #right #buttonA #buttonB .hideDiv {
+    visibility: visible !important;
+  }
+
 }
 
 @media only screen and (max-width: 360px) {
-  #game {
-    height: 368px !important;
-    width: 300px !important;
-    position: absolute !important;
-    top: 60% !important;
-    margin-left: -187px !important;
-    margin-top: -250px !important;
-    border: 1px solid #ccc !important;
-    overflow: hidden !important;
+   #game {
+    height: 385px;
+    width: 424px;
+    position: absolute;
+    top: 60%;
+    margin-left: -200px !important;
+    margin-top: -255px !important;
+    border: 1px solid #ccc;
+    overflow: hidden;
   }
   #gameController {
     height: 40px !important;
@@ -624,7 +629,7 @@ footer {
     position: absolute !important;
     left: 50% !important;
     top: 50% !important;
-    margin-left: -180px !important;
+    margin-left: -150px !important;
     margin-top: 190px !important;
     border: 1px solid !important;
   }
@@ -632,5 +637,3 @@ footer {
     margin-right: 190px !important;
   }
 }
-
-
