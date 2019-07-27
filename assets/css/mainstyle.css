@@ -522,12 +522,10 @@ footer {
     border: 1px solid #ccc;
     overflow: hidden;
   }
-  /* #gameController #left #right #buttonA #buttonB {
-    visibility: hidden;
+  #gameController #left #right #buttonA #buttonB .hideDiv{
+    visibility: visible;
   }
-  .hideDiv {
-    visibility: hidden;
-  } */
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -619,7 +617,7 @@ footer {
     position: absolute;
     top: 60%;
     margin-left: -200px !important;
-    margin-top: -255px !important;
+    margin-top: -200px !important;
     border: 1px solid #ccc;
     overflow: hidden;
   }
@@ -630,7 +628,7 @@ footer {
     left: 50% !important;
     top: 50% !important;
     margin-left: -150px !important;
-    margin-top: 190px !important;
+    margin-top: 285px !important;
     border: 1px solid !important;
   }
   .fa-arrow-circle-right {
