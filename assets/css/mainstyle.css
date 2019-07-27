@@ -453,7 +453,7 @@ footer {
   }
 
   #game {
-    height: 480px;
+    height: 320px !important;
     width: 478px !important;
     position: absolute;
     left: 50%;
