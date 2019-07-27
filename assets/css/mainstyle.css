@@ -122,15 +122,15 @@ padding: 15px;
   padding-bottom: 10px;
 }
 
-#gameController {
+/* #gameController {
   height: 40px; width: 640px; position: absolute; left: 50%; top: 50%;
 	margin-left: -321px; margin-top: 290px; border: 1px solid;
-}
-
+} */
+/*
 .fa-arrow-circle-right{
  margin-right: 465px;
 }
-
+*/
 .row, .controller {
   display: table;
 }
@@ -171,6 +171,7 @@ footer {
   overflow: auto;
   margin-bottom: 120px;
 }
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
@@ -302,6 +303,7 @@ footer {
             animation-timing-function: ease-out;
   }
 }
+
 .mario {
   height: 60px;
   width: 40px;
@@ -384,7 +386,15 @@ footer {
   50%  { left: 300px }
   100% { left: 300px }
 }
+@media screen and (max-width: 12450px) {
 
+  #gameController #left #right #buttonA #buttonB {
+  visibility: hidden;
+  }
+  .hideDiv {
+    visibility: hidden;
+    }
+}
 @media screen and (max-width: 980px) {
 
   #masthead {
@@ -396,16 +406,13 @@ footer {
     width: 95%;
   }
 
-  #gameController {
-    height: 40px;
-    width: 640px;
-    position: absolute;
-    left: 25%;
-    top: 50%;
-    margin-left: -76px;
-    margin-top: 290px;
-    border: 1px solid;
-}
+  #gameController #left #right #buttonA #buttonB {
+    visibility: hidden;
+
+  }
+.hideDiv {
+  visibility: hidden;
+  }
 
 .pipecontainer {
     width: 30%;
@@ -442,6 +449,7 @@ footer {
   .auth-image {
     width: 200px;
   }
+
   #game {
     height: 430px;
     width: 640px;
@@ -454,15 +462,11 @@ footer {
     overflow: hidden;
   }
 
-  #gameController {
-      height: 40px;
-      width: 638px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      margin-left: -320px;
-      margin-top: 275px;
-      border: 1px solid;
+  #gameController #left #right #buttonA #buttonB {
+    visibility: hidden;
+  }
+  .hideDiv {
+    visibility: hidden;
   }
 
 }
@@ -507,6 +511,7 @@ footer {
   .fa-arrow-circle-right {
     margin-right: 292px;
   }
+
   #game {
     height: 385px;
     width: 460px;
@@ -516,99 +521,96 @@ footer {
     margin-top: -267px;
     border: 1px solid #ccc;
     overflow: hidden;
-}
-  #gameController {
-    height: 40px;
-    width: 462px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -311px;
-    margin-top: 210px;
-    border: 1px solid;
+  }
+  #gameController #left #right #buttonA #buttonB {
+    visibility: hidden;
+  }
+  .hideDiv {
+    visibility: hidden;
   }
 }
 
 @media only screen and (max-width: 480px) {
-#logo {
-  width: 25%;
+  #logo {
+    width: 25%;
+    float: right;
+    margin-right: 15px;
+  }
+
+    .navbar {
+  height: 50px;
+  width: 477px;
+  z-index: 9999;
+
+  }
+
+  .navbar-toggler {
+  font-size: .75rem !important;
+  position: absolute;
+  z-index: 9999;
   float: right;
-  margin-right: 15px;
-}
+  }
 
-  .navbar {
- height: 50px;
- width: 477px;
- z-index: 9999;
+  .fa-arrow-circle-right {
+    margin-right: 314px;
+  }
 
-}
+  .auth-image {
+    width: 75%;
+    height: inherit;
+    margin: 30px;
+    align-self: center;
+  }
 
-.navbar-toggler {
-font-size: .75rem !important;
-position: absolute;
-z-index: 9999;
-float: right;
-}
+  .footer{
+  align-content: right;
+  }
 
-.fa-arrow-circle-right {
-  margin-right: 314px;
-}
+  .mario{
+    display: none;
+  }
 
-.auth-image {
-  width: 75%;
-  height: inherit;
-  margin: 30px;
-  align-self: center;
-}
+  .connect{
+    display: none;
+  }
 
-.footer{
-align-content: right;
-}
+  .overlay,
+  .pirahnaplant {
+    visibility: visible;
+    opacity: 1;
+  }
 
-.mario{
-  display: none;
-}
-
-.connect{
-  display: none;
-}
-
-.overlay,
-.pirahnaplant {
-  visibility: visible;
-  opacity: 1;
-}
-
-.carouselContainer{
-  width:400px !important;
-  height: inherit;
-}
-#game {
-  height: 385px;
-  width: 490px;
-  position: absolute;
-  top: 60%;
-  margin-left: -238px;
-  margin-top: -250px;
-  border: 1px solid #ccc;
-  overflow: hidden;
-}
-#gameController {
-  height: 40px;
-  width: 484px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -235px;
-  margin-top: 190px;
-  border: 1px solid;
-}
+  .carouselContainer{
+    width:400px !important;
+    height: inherit;
+  }
+  #game {
+    height: 385px;
+    width: 490px;
+    position: absolute;
+    top: 60%;
+    margin-left: -238px;
+    margin-top: -250px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  #gameController {
+    visibility: hidden;
+    height: 40px;
+    width: 484px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -235px;
+    margin-top: 190px;
+    border: 1px solid;
+  }
 }
 
 @media only screen and (max-width: 360px) {
   #game {
-    height: 385px !important;
-    width: 360px !important;
+    height: 368px !important;
+    width: 300px !important;
     position: absolute !important;
     top: 60% !important;
     margin-left: -187px !important;
@@ -632,8 +634,3 @@ align-content: right;
 }
 
 *{ touch-action: none; }
-
-/*
-#left, #right, #buttonA, #buttonB {
-  touch-action: none;
-} */
