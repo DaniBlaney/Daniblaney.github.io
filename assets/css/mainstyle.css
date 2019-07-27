@@ -436,7 +436,9 @@ footer {
   #main-container {
     width: 95%;
   }
-
+  .navbar{
+    width: 65.5%;
+  }
   .pipecontainer {
     width: 60%;
     margin: 10px;
@@ -451,13 +453,13 @@ footer {
   }
 
   #game {
-    height: 430px;
-    width: 640px;
+    height: 480px;
+    width: 478px !important;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -321px;
-    margin-top: -155px;
+    margin-left: -378px !important;
+    margin-top: -180px !important;
     border: 1px solid #ccc;
     overflow: hidden;
   }
@@ -535,9 +537,9 @@ footer {
     margin-right: 15px;
   }
 
-    .navbar {
+  .navbar {
   height: 50px;
-  width: 477px;
+  width: 370px;
   z-index: 9999;
 
   }
@@ -611,6 +613,9 @@ footer {
 }
 
 @media only screen and (max-width: 360px) {
+  .navbar{
+    width: 114.5%;
+  }
    #game {
     height: 385px;
     width: 424px;
