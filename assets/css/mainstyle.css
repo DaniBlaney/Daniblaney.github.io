@@ -387,14 +387,15 @@ footer {
   100% { left: 300px }
 }
 /**
- * ----------------------------------------
- * animation flip through card deck
- * ----------------------------------------
+ * -------------------------------------------------
+ * animation flip through card deck on contact page
+ * -------------------------------------------------
  */
- *,
- *:after,
- *:before {
+ .deckContainer,
+ .deckContainer:after,
+ .deckContainer:before {
    box-sizing: border-box;
+   border: 2px black solid;
  }
 
  body {
