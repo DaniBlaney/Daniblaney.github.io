@@ -11,6 +11,7 @@
   padding: 10px;
 
 }
+
 .image {
   display: block;
   width: 100%;
@@ -121,6 +122,13 @@ padding: 15px;
   margin-left: 10px;
   padding-bottom: 10px;
 }
+
+#skills {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+ }
 
 /* #gameController {
   height: 40px; width: 640px; position: absolute; left: 50%; top: 50%;
