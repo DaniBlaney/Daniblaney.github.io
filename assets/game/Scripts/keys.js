@@ -14,8 +14,8 @@ var keys = {
 		$(document).on('keyup', function(event) {
 			return keys.handler(event, false);
 		});
-/*------------------------------------------------------------------------------*/
-/* make mobile touch screen controls--my code added to Florians's*/
+//------------------------------------------------------------------------------//
+// make mobile touch screen controls--my code added to Florians's//
 
 		var buttonA = new Hammer(document.getElementById('buttonA'));
 		buttonA.on("press pressup", function (ev) {
