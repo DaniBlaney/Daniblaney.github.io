@@ -5,6 +5,8 @@
  * mail@florian-rappl.de
  * *****
  */
+/*------------------------------------------------------------------------------*/
+/* make mobile touch screen controls--my code added to Florians's*/
 
 var keys = {
 	bind : function() {
@@ -14,8 +16,6 @@ var keys = {
 		$(document).on('keyup', function(event) {
 			return keys.handler(event, false);
 		});
-//------------------------------------------------------------------------------//
-// make mobile touch screen controls--my code added to Florians's//
 
 		var buttonA = new Hammer(document.getElementById('buttonA'));
 		buttonA.on("press pressup", function (ev) {
@@ -56,7 +56,7 @@ var keys = {
 				keys.accelerate = false;
 			}
 		});
-		//end of my code for touch
+	
 	},
 	reset : function() {
 		keys.left = false;
