@@ -16,30 +16,6 @@ var keys = {
 		});
 /*------------------------------------------------------------------------------*/
 /* make mobile touch screen controls--my code added to Florians's*/
-		// $(document).on("mousedown touchstart", "#right", function(){
-		// 	keys.right = true;
-		// })
-		// $(document).on("mouseup touchend touchcancel touchmove", "#right", function(){
-		// 	keys.right = false;
-		// })
-		// $(document).on("mousedown touchstart", "#left", function(){
-		// 	keys.left = true;
-		// })
-		// $(document).on("mouseup touchend touchcancel touchmove", "#left", function(){
-		// 	keys.left = false;
-		// })
-		// $(document).on("mousedown touchstart", "#buttonA", function(){
-		// 	keys.up = true;
-		// })
-		// $(document).on("mouseup touchend touchcancel touchmove", "#buttonA", function(){
-		// 	keys.up = false;
-		// })
-		// $(document).on("mousedown touchstart", "#buttonB", function(){
-		// 	keys.accelerate = true;
-		// })
-		// $(document).on("mouseup touchend touchcancel touchmove", "#buttonB", function(){
-		// 	keys.accelerate = false;
-		// })
 
 		var buttonA = new Hammer(document.getElementById('buttonA'));
 		buttonA.on("press pressup", function (ev) {
@@ -127,4 +103,3 @@ var keys = {
 	right : false,
 	down : false,
 };
-
