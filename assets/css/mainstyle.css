@@ -502,8 +502,8 @@ footer {
     overflow: hidden;
 }
 #gameController{
- margin-top: 385px;
- margin-left: 68px;
+ margin-top: 400px;
+ margin-left: 15px;
  visibility: visible !important;
 }
 #left #right #buttonA #buttonB {
@@ -526,12 +526,12 @@ footer {
 
 }
 @media screen and (max-width: 12450px){
-  #gameController #left #right #buttonA #buttonB {
+  /* #gameController #left #right #buttonA #buttonB {
     visibility: hidden;
     }
   .hideDiv{
     visibility: hidden;
-  }
+  } */
 }
 /*
 @media screen and (max-width: 12450px) {
