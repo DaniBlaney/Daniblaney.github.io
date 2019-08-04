@@ -2,9 +2,11 @@
   position: relative;
   width: 50%;
 }
+
 .auth-image {
   box-shadow: 4.5px 4.5px;
 }
+
 .langLogos{
   background-color: lightgrey;
   margin: 20px;
@@ -17,9 +19,11 @@
   height: auto;
   margin: 20px;
 }
+
 .fa-linkedin:before{
   margin: 3px;
 }
+
 .fa-file-alt,
 .fa-gamepad,
 .fa-envelope,
@@ -27,18 +31,10 @@
   color: white;
   margin: 5px;
 }
+
 .contact{
   text-align: center;
   box-shadow: black 4.5px;
-}
-
-.carousel-inner{
-margin-top: 30px;
-padding: 15px;
-}
-.carouselContainer{
-  width:750px !important;
-  height: inherit;
 }
 
 .overlay {
@@ -97,14 +93,6 @@ padding: 15px;
   margin: 10px;
 }
 
-.jumbotron .bg-light .jumbotron-fluid {
-  background-color: transparent;
-}
-
-.main-container{
-  background-color: transparent;
-}
-
 .copyright {
   font-size: small;
   margin-bottom: -25px;
@@ -130,7 +118,7 @@ padding: 15px;
  margin-right: 465px;
 }
 */
-.row, .controller {
+.controller {
   display: table;
 }
 
@@ -514,9 +502,13 @@ footer {
     overflow: hidden;
 }
 #gameController{
- margin-top: 365px;
- margin-left: 10px;
+ margin-top: 385px;
+ margin-left: 68px;
+ visibility: visible !important;
 }
+#left #right #buttonA #buttonB {
+  visibility: visible !important;
+  }
 .fa-arrow-circle-right {
   margin-right: 150px !important;
 }
@@ -533,7 +525,14 @@ footer {
 }
 
 }
-
+@media screen and (max-width: 12450px){
+  #gameController #left #right #buttonA #buttonB {
+    visibility: hidden;
+    }
+  .hideDiv{
+    visibility: hidden;
+  }
+}
 /*
 @media screen and (max-width: 12450px) {
 
