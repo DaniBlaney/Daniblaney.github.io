@@ -56,7 +56,7 @@ var keys = {
 				keys.accelerate = false;
 			}
 		});
-		/*end of my code for touch*/
+		//end of my code for touch
 	},
 	reset : function() {
 		keys.left = false;
