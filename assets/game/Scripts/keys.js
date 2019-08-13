@@ -5,6 +5,8 @@
  * mail@florian-rappl.de
  * *****
  */
+/*------------------------------------------------------------------------------*/
+/* make mobile touch screen controls--my code added to Florians's*/
 
 var keys = {
 	bind : function() {
@@ -14,32 +16,6 @@ var keys = {
 		$(document).on('keyup', function(event) {
 			return keys.handler(event, false);
 		});
-/*------------------------------------------------------------------------------*/
-/* make mobile touch screen controls--my code added to Florians's*/
-		// $(document).on("mousedown touchstart", "#right", function(){
-		// 	keys.right = true;
-		// })
-		// $(document).on("mouseup touchend touchcancel touchmove", "#right", function(){
-		// 	keys.right = false;
-		// })
-		// $(document).on("mousedown touchstart", "#left", function(){
-		// 	keys.left = true;
-		// })
-		// $(document).on("mouseup touchend touchcancel touchmove", "#left", function(){
-		// 	keys.left = false;
-		// })
-		// $(document).on("mousedown touchstart", "#buttonA", function(){
-		// 	keys.up = true;
-		// })
-		// $(document).on("mouseup touchend touchcancel touchmove", "#buttonA", function(){
-		// 	keys.up = false;
-		// })
-		// $(document).on("mousedown touchstart", "#buttonB", function(){
-		// 	keys.accelerate = true;
-		// })
-		// $(document).on("mouseup touchend touchcancel touchmove", "#buttonB", function(){
-		// 	keys.accelerate = false;
-		// })
 
 		var buttonA = new Hammer(document.getElementById('buttonA'));
 		buttonA.on("press pressup", function (ev) {
@@ -80,7 +56,7 @@ var keys = {
 				keys.accelerate = false;
 			}
 		});
-		/*end of my code for touch*/
+	
 	},
 	reset : function() {
 		keys.left = false;
@@ -127,4 +103,3 @@ var keys = {
 	right : false,
 	down : false,
 };
-
